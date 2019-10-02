@@ -12,12 +12,12 @@ console.log( apiResult);
         addName.appendChild(text);
 
         var sectionTwo = document.getElementById('main'); //selects main//
-        
         var addWeather = document.createElement('h4');
         sectionTwo.appendChild(addWeather);
-
         var text1= document.createTextNode(apiResult.weather[0].description);
         addWeather.appendChild(text1);
+
+      
 
 
     }
