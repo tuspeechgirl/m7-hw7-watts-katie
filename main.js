@@ -1,9 +1,17 @@
+var mainSection = document.getElementById('page-body');
 var xmlhttp = new XMLHttpRequest();
 xmlhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
         var apiResult = JSON.parse(this.responseText);
 
         //Code Dealing With The API Data Goes Here
+        var sectionOne = document.getElementById('header'); //selects header//
+        var addName = document.createElement('h4');
+        sectionOne.appendChild(addName);
+        var text= document.createTextNode(apiResult.name);
+        addName.appendChild(text);
+
+
 
     }
 };
