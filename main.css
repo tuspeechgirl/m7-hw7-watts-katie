@@ -7,3 +7,40 @@
 article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
     display:block;
 }
+header{
+	height:200px;
+	background: #fb2e01;
+
+}
+h1{
+	color:#fffeb3;
+	font-family: 'Mansalva', cursive;
+	text-align: center;
+	margin-top: 20px;
+	padding-top: 30px;
+	font-size: 4rem;
+}
+
+main{
+	background: #6fcb9f;
+}
+h2{
+	color:#fffeb3;
+	font-family: 'Mansalva', cursive;
+	text-align: center;
+	margin-top: 20px;
+	padding-top: 30px;
+	font-size: 3rem;
+}
+
+footer{
+	background: 	#666547;
+}
+p{
+	color:#fffeb3;
+	font-family: 'Mansalva', cursive;
+	text-align: center;
+	margin-top: 20px;
+	padding-top: 30px;
+	font-size: 2rem;
+}
